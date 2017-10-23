@@ -1,0 +1,2 @@
+app/etc/modules/Bigdrop_CatalogWidget.xml app/etc/modules/Bigdrop_CatalogWidget.xml
+app/code/local/Bigdrop/CatalogWidget/*    app/code/local/Bigdrop/CatalogWidget/
