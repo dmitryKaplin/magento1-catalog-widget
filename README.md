@@ -12,12 +12,11 @@ This module allows You to easily add widgets in the description of products or c
 4. `modman deploy magento1-catalog-widget`
 
 ## Documentation
-1. [Installation](#installation)
-2. [Update from modman](#update-from-modman)
-3. [Enable/Disable](#to-enabledisable-module-functionality)
-
-#### To Enable/Disable module functionality
-Go to **System → Configuration → BIGDRoP → Catalog Widgets → General settings**
+1. [Update from modman](#update-from-modman)
+2. [Enable/Disable](#to-enabledisable-module-functionality)
 
 #### Update from modman
 `modman update magento1-catalog-widget`
+
+#### To Enable/Disable module functionality
+Go to **System → Configuration → BIGDRoP → Catalog Widgets → General settings**
