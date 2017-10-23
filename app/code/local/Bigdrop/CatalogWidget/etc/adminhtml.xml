@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Enable widgets in catalog
+ *
+ * @category Bigdrop
+ * @package  Bigdrop_CatalogWidget
+ * @author   Dmitry Kaplin <dmitry.kaplin@bigdropinc.com>
+ */
+-->
+<config>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <bd_catalog_widget translate="title" module="bd_cleaner">
+                                        <title>Catalog Widgets Configurations</title>
+                                    </bd_catalog_widget>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config>

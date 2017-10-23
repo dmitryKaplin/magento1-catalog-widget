@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Enable widgets in catalog
+ *
+ * @category Bigdrop
+ * @package  Bigdrop_CatalogWidget
+ * @author   Dmitry Kaplin <dmitry.kaplin@bigdropinc.com>
+ */
+-->
+<config>
+    <modules>
+        <Bigdrop_CatalogWidget>
+            <version>1.0.0</version>
+        </Bigdrop_CatalogWidget>
+    </modules>
+    <global>
+        <models>
+            <bd_catalog_widget>
+                <class>Bigdrop_CatalogWidget_Model</class>
+            </bd_catalog_widget>
+            <catalog>
+                <rewrite>
+                    <template_filter>Bigdrop_CatalogWidget_Model_Template_Filter</template_filter>
+                </rewrite>
+            </catalog>
+        </models>
+        <helpers>
+            <bd_catalog_widget>
+                <class>Bigdrop_CatalogWidget_Helper</class>
+            </bd_catalog_widget>
+        </helpers>
+        <events>
+            <cms_wysiwyg_config_prepare>
+                <observers>
+                    <bd_catalog_widget_observer>
+                        <class>bd_catalog_widget/observer</class>
+                        <method>wysiwygConfig</method>
+                    </bd_catalog_widget_observer>
+                </observers>
+            </cms_wysiwyg_config_prepare>
+        </events>
+    </global>
+    <default>
+        <bd_catalog_widget>
+            <settings>
+                <enabled>1</enabled>
+            </settings>
+        </bd_catalog_widget>
+    </default>
+</config>

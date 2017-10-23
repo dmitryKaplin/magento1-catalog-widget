@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Enabled widgets in catalog
+ *
+ * @category Bigdrop
+ * @package  Bigdrop_CatalogWidget
+ * @author   Dmitry Kaplin <dmitry.kaplin@bigdropinc.com>
+ */
+-->
+<config>
+    <modules>
+        <Bigdrop_CatalogWidget>
+            <active>true</active>
+            <codePool>local</codePool>
+            <depends>
+                <Mage_Adminhtml/>
+                <Mage_Catalog/>
+                <Mage_Cms/>
+            </depends>
+        </Bigdrop_CatalogWidget>
+    </modules>
+</config>
