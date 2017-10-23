@@ -8,7 +8,7 @@ This module allows You to easily add widgets in the description of products or c
 ## Installation from modman
 1. Go to project directory
 2. [modman](https://github.com/colinmollenhour/modman) init
-3. modman clone git@github.com:dmitryKaplin/magento1-catalog-widget.git
+3. modman clone git`@github.com:dmitryKaplin/magento1-catalog-widget.git
 4. modman repair
 
 ## Documentation
